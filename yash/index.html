@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Sawant</title>
+</head>
+<style>
+    body {
+        text-align: center;
+            background: white;
+            color: #212529;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        h2{
+            font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+        }
+        h3{
+            font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+        }
+        h4{
+            font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+        }
+        nav{
+        background-color: #333;
+        display: flex;
+        height: 100px;
+       
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style-type: none;
+       
+        margin: 0 33px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        
+        color: rgb(240, 244, 247);
+        font-size: 0.8rem;
+    }
+    section {
+        scroll-margin-top: 100px; 
+      }
+    .left{
+        font-size: 1.5rem;
+       
+    }
+    .right{
+        font-size: 1.1rem;
+        
+    }
+        
+        #home{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+        }
+    main hr{
+        border: 0px;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+       } 
+        #home > div{
+            width: 30%;
+        }
+        .Rightsec {
+            font-size: 2.5rem;
+        }  
+        .leftsec img{
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            box-shadow: 0 0 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }  
+        .leftsec img:hover {
+    transform: scale(1.1); 
+}
+        .purple{
+            color: rgb(172, 9, 158);
+        }  
+        .bule {
+            font-size: 1.5rem;
+        }
+        .bule {
+            color: rgb(172, 9, 158);
+        }  
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #f0f0f5;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            font-style: normal;
+        }
+ #qualification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.qualifications-table {
+    width: 90%; 
+    border-collapse: collapse; 
+    font-size: 22px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.qualifications-table th {
+    background-color: #366a8d;
+    color: white;
+    padding: 12px; 
+}
+
+ 
+.qualifications-table td {
+    padding: 10px; 
+    border: 1px solid #ddd;
+}
+
+
+.qualifications-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.qualifications-table tr:nth-child(odd) {
+    background-color: #eaf2ff;
+}
+
+
+.qualifications-table tr:hover {
+    background-color: #d1e7fd;
+    transition: 0.3s;
+}
+.container-wrapper{
+    display: flex;
+    gap: 20px;
+}
+.certificate-container {
+    background-color: #d6d6d6;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contact-container{
+text-align: center;
+background-color: #007bff;
+background: rgba(255, 255, 255,0.1);
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(10px);
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-card { 
+    display: inline-block;
+    width: 220px; 
+    padding: 25px; 
+    background: rgba(44, 14, 179, 0.2); 
+    border-radius: 15px; 
+    margin: 15px; 
+    text-align: center; 
+    transition: transform 0.3s ease; 
+}
+
+.contact-card:hover { 
+    transform: scale(1.05); 
+    background: rgba(255, 255, 255, 0.3); 
+}
+
+.contact-card i { 
+    font-size: 35px; 
+    color: #411ec2; 
+    margin-bottom: 10px; 
+}
+
+.contact-card p { 
+    margin: 5px 0; 
+    font-weight: 500; 
+}
+
+.contact-card a { 
+    text-decoration: none; 
+    color: blue; 
+    font-weight: bold;  
+    padding-bottom: 2px; 
+}
+footer {
+        text-align: center;
+        padding: 10px;
+        background: #333;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#qualification">Qualifications</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <div class="Rightsec">
+            Hii I'm <span class="purple">Yash Sawant</span> <br>
+            <span class="bule">Computer Engineering Student</span>
+        </div>
+        <div class="leftsec">
+            <img src="/WhatsApp Image 2025-04-12 at 01.36.29_f21bb338.jpg" alt="">
+        </div>
+    </section>
+    <hr/>
+    <hr/>
+<h2>About Me</h2>
+    <section id="about">
+        <div class="container">
+            Hi! I'm a Computer Engineering student at MIT Academy of Engineering (MIT AOE),currently pursuing B.tech 
+            with a passion for web development.
+            I love learning about new web technologies and improving my coding skills. 
+<br/>
+            I always try to stay updated with the latest trends in web development and enjoy experimenting with new ideas. 
+            I believe in continuous learning and love collaborating with others to create exciting projects.
+        </div>
+    </section>
+    <hr/>
+    <hr/>
+    <h2>Qualifications</h2>
+    <section id="qualification">
+        <div class="table-container"></div>
+        <table class="qualifications-table">
+            <tr>
+              <th>Examination</th>
+              <th>Score</th>
+          </tr>
+          <tr>
+              <td>SSC</td>
+              <td>65.00%</td>      
+          </tr>
+          <tr>
+              <td>HSC</td>
+              <td>68.33%</td>
+          </tr>
+          <tr>
+              <td>JEE MAINS</td>
+              <td>67%tile</td>
+          </tr>
+          <tr>
+              <td>MHT-CET</td>
+              <td>96.92%tile</td>
+        </tr>
+          <tr>
+              <td>Engineering 1st Semester</td>
+              <td>8.10 SGPA</td>
+          </tr>
+          </table>
+        </div>
+        </section>
+        <hr/>
+        <hr/>
+
+        <h2>Projects</h2>
+        <h3>Linux Certifications</h3>
+        <section id="project">
+            <div class="container-wrapper">
+            <div class="certificate-container">
+                    <h4>Simplilearn</h4>
+                    <a href="https://drive.google.com/file/d/1iB5yTSS8Sag1d2IvWJEfTBd-dJTMdUAC/view?usp=drivesdk">View certificate</a>
+               
+
+            </div>
+            <div class="certificate-container">
+                <h4>Alison</h4>
+                <a href="https://drive.google.com/file/d/1i3P1XjI1sGdrXG7tWF1BDj9fYh9Mofac/view?usp=drivesdk">View certificate</a>
+           
+
+        </div>
+        <div class="container-wrapper">
+            <div class="certificate-container">
+                    <h4>Linux Project</h4>
+                    <a href="https://drive.google.com/file/d/1YkNhv95qD1V1RYUdMYLdZMfVNtrm4J-l/view?usp=drivesdk">View Project</a>
+               
+
+            </div>
+    </div>
+        </section>
+        <hr/>
+        <hr/>
+        <section id="contact">
+            <div class="contact-container">
+                <h1>Contact Me</h1>
+                <div class="contact-card">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <p>📞Phone</p>
+                    <p>+91 7666151578</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <p>✉Email</p>
+                    <p>202401040026@mitaoe.ac.in</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    <p>LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/yash-sawant-251a72357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Connect</a>
+                </div>
+            </div>
+        </section>
+        <hr/>
+        <hr/>
+        <footer class="footer"> &copy; 2025 Yash Sawant| All Rights Reserved from the owner.
+        </footer>
+
+</body>
+</html>
